@@ -1,4 +1,4 @@
-# gtb-static-page
+# static-page-scaffold
 
 Static page with dev server for GTB project
 
