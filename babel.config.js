@@ -1,3 +1,4 @@
 module.exports = {
   presets: ["@babel/preset-env", "airbnb"],
+  plugins: ["@babel/plugin-proposal-class-properties"],
 };
