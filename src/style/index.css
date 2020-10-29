@@ -5,16 +5,71 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 21%;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.register-button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+nav {
+  font-size: 13px;
+  margin-right: 21%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-page-type {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+figure {
+  text-align: center;
+  background-color: white;
+  width: 49%;
+  height: 500px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.illustration-caption {
+  padding-bottom: 50px;
+  margin: 0 30px;
+  height: 150px;
 }
